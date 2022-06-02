@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+		<title>Decodificador</title>
+
+	</head>
+
+	<body>
+
+		<header class="header">
+
+			<img class="logoinicial" src="Logo.png">
+			<p>CryptoSecrets</p>
+
+		</header>
+
+			<section>
+
+				<div class="esquerda">
+
+					<input class="input" type="type" placeholder="Digite o texto aqui" id="inputTexto">
+					<h2>Somente letras minúsculas e sem caracteres especiais</h2>
+					<button class="botoes" onclick="criptografar()">Criptografar</button>
+					<button class="botoes" onclick="descriptografar()">Descriptografar</button>
+
+				</div>
+
+				<div class="direita">
+
+					<img class="logocriptografia" src="logocripto2.jpg" id="logocriptografia">
+					<h1 id="mensagemquedevesumir">Nenhuma mensagem foi encontrada</h1>
+					<textarea class="textarea" id="caixatexto" name="" rows="5" cols="50" placeholder="Digite um texto que voce desejacriptografar ou descriptografar"></textarea>
+					<button id="copiar" onclick="copiar()">Copiar</button>
+
+				</div>
+
+			</section>
+
+		<footer>
+
+			<img class="logorodape" src="Logo.png">
+			<p>© Copyright - Gustavo Fernandes</p>
+			<p>2022</p>
+
+		</footer>
+
+	</body>
+</html>

@@ -12,7 +12,6 @@ function criptografar() {
 	document.getElementById("copiar").style.display = "show";
 	document.getElementById("copiar").style.display = "inherit"
 
-
 }
 
 function descriptografar() {
